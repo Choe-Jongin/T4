@@ -52,6 +52,7 @@ public class CityFragment extends ListFragment {
 
         RequestQueue queue = Volley.newRequestQueue(getActivity());
         String url ="http://api.openweathermap.org/data/2.5/forecast/daily?id="+cities.get(strText)+"&cnt=16&appid=5fd2f2cde90c1533efb95b19c048a528";
+        //"http://api.openweathermap.org/data/2.5/forecast/daily?id=1838519&cnt=16&appid=5fd2f2cde90c1533efb95b19c048a528"
 
         // Request a string response from the provided URL.
         JsonObjectRequest jsonObjectRequest

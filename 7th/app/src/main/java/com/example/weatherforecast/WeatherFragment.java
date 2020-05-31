@@ -22,9 +22,6 @@ import java.util.HashMap;
 
 public class WeatherFragment extends ListFragment {
 
-    ArrayList<String> day = new ArrayList<String>();
-    ArrayList<String> desc = new ArrayList<String>();
-
     HashMap<String,String> item= new HashMap<String,String>();
     ArrayList<HashMap<String,String>> mem= new ArrayList<HashMap<String,String>>();
 
@@ -41,14 +38,15 @@ public class WeatherFragment extends ListFragment {
     }
     void set(JSONObject obj) {
 
+        item.clear();
+        mem.clear();
+
         TextView tv = (TextView)getActivity().findViewById(R.id.desc);
         try {
             tv.setText(obj.getJSONObject("city").getString("name"));
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        day.clear();
-        desc.clear();
         try {
             JSONArray arr = obj.getJSONArray("list");
             for (int i = 0; i < arr.length(); i++) {

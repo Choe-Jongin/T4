@@ -1,7 +1,7 @@
-#Sun May 31 23:19:25 KST 2020
-base.0=C\:\\Users\\ChoeJongIn\\Desktop\\T4\\7th\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Sun May 31 23:48:09 KST 2020
+base.0=C\:\\Users\\ChoeJongIn\\AndroidStudioProjects\\WeatherForecast\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\ChoeJongIn\\Desktop\\T4\\7th\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=C\:\\Users\\ChoeJongIn\\AndroidStudioProjects\\WeatherForecast\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
