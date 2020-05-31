@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array-string name="cityname">
+        <item>서울</item>
+        <item>대전</item>
+    </array-string>
+    <array-integer name="cityid">
+        <item>1835847</item>
+        <item>#1835224</item>
+    </array-integer>
+</resources>
+    <!--<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+</resources>
+    -->
