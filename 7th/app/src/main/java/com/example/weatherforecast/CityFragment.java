@@ -17,23 +17,18 @@ import com.example.weatherforecast.R;
 import java.util.ArrayList;
 
 public class CityFragment extends ListFragment {
-    public View onCreate(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-    {
+    /*
+    public View onCreate(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_city, container, false);
-
-        ArrayList<String> cities = new ArrayList<String>();
-        cities.add("서울");
-        cities.add("부산");
-        cities.add("대전");
-        cities.add("울산");
-
-        setListAdapter(new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_activated_1, cities));
-        ListView cityList = (ListView)root.findViewById(R.id.cityfrag);
-
-
 
         return root;
     }
-
+    */
+    @Override
+    public void onListItemClick (ListView l, View v, int position, long id) {
+        // get TextView's Text.
+        String strText = (String) l.getItemAtPosition(position) ;
+        // TODO
+    }
 }
 
