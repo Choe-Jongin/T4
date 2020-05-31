@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -70,6 +71,8 @@ public class CityFragment extends ListFragment {
             @Override
             public void onErrorResponse(VolleyError error) {
                 // TODO: Handle error
+                TextView tv = (TextView)getActivity().findViewById(R.id.desc);
+                tv.setText(error.getMessage());
             }
 
         });
